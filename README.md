@@ -31,13 +31,6 @@ If you're after hardware *design* tools, these awesome lists are a good place to
 
 For each tool entry, the following information should be included:
 
-**Tag** | **Description**
---------|-----------------------------------------------------------------------------
-Design Language | Which language(s) does the tool allow you to work with.
-Verification Language | Which language(s) does the tool allow you to write your testbench infrastructure in.
-License Status | How can the tool be used by others?
-Features | What sort of verification functionality is provided by the tool.
-
 ### Yosys/Symbiyosys
 - TBD
 
@@ -48,16 +41,13 @@ Features | What sort of verification functionality is provided by the tool.
 
 For each framework entry, the following information should be included:
 
-**Tag** | **Description**
---------|-----------------------------------------------------------------------------
-Design Language | Which language(s) does the framework allow you to work with.
-Verification Language | Which language(s) does the framework allow you to write your testbench infrastructure in.
-Implementation language | Which language(s) is the framework itself implemented in.
-License Status | How can the framework be used by others?
-Features | What sort of verification functionality does the framework aim to provide?
-
 ### Cocotb
-- TBD
+*"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
+
+- Licence: [Revised BSD License](https://github.com/potentialventures/cocotb/blob/master/LICENSE)
+- Implemented in: Python
+- Write Testbeches In: Python
+- Link: https://github.com/potentialventures/cocotb
 
 ### riscv-formal
 - TBD
