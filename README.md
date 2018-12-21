@@ -15,10 +15,10 @@ Pull requests and submissions are encouraged!
 **Note:** this list focuses on *Verification* and not *design*. While there are lots of cool new
 languages and frameworks aimed at making hardware design easier (or at least, *not Verilog/VHDL*),
 verification can sometimes get left out in the cold.
-While some new design tools/languages make the claim that "our new design tool `X` makes verification
-easier because it is written in high level language `Y`", it can often be much harder to see concrete
-evidence of this in terms of re-usable verification IP/frameworks/methods which are actually written
-in "new language/tool `Y`". It might seem mean, but just being a new design language which 
+While some new design tools/languages claim that "our new design tool `X` makes verification
+easier because it is written in high level language `Y`", it can often be much harder to find
+evidence of this in terms of re-usable verification IP/frameworks/methods which are written
+in "new language/tool `Y`". It might seem mean, but being a new design language which 
 *theoretically* makes verification easier is not enough to merit inclusion on this list. What's
 needed is *practical* demonstration of making verification easier. This can be through libraries or
 IP which use "new language/tool `Y`", or in depth tutorials which explain how to use it for proper
