@@ -12,9 +12,12 @@ include:
 
 Pull requests and submissions are encouraged!
 
-**Note:** this list focuses on *Verification* and not *design*. While there are lots of cool new
+**Some Rules:**
+
+This list focuses on *Verification* and not *design*. While there are lots of cool new
 languages and frameworks aimed at making hardware design easier (or at least, *not Verilog/VHDL*),
 verification can sometimes get left out in the cold.
+
 While some new design tools/languages claim that "our new design tool `X` makes verification
 easier because it is written in high level language `Y`", it can often be much harder to find
 evidence of this in terms of re-usable verification IP/frameworks/methods which are written
@@ -26,6 +29,13 @@ design verification.
 
 If you're after hardware *design* tools, these awesome lists are a good place to start:
 - [awesome-hdl](https://github.com/drom/awesome-hdl)
+
+Further, entries in this list should not only be open source themselves, but *be usable* by
+people developing open source hardware using open source tools. For example, if company `X`
+releases a set of re-usable verification components written using
+[UVM](https://www.accellera.org/downloads/standards/uvm)
+and SystemVerilog, is there an Free and Open Source SystemVerilog implementation which can make
+use of them?
 
 ## Contents
 
