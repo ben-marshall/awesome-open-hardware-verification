@@ -10,6 +10,8 @@ include:
 - [Verification Guides](#Guides) and blog posts on how to actually go about verifying a hardware design
 - [Conferences](#Conferences) where new work on open source hardware verification is talked about
 
+Pull requests and submissions are encouraged!
+
 **Note:** this list focuses on *Verification* and not *design*. While there are lots of cool new
 languages and frameworks aimed at making hardware design easier (or at least, *not Verilog/VHDL*),
 verification can sometimes get left out in the cold.
