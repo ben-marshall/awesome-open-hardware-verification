@@ -50,7 +50,7 @@ use of them?
 - [riscv-formal](#riscv-formal)
 - [UVVM](#UVVM)
 - [OSVVM](#OSVVM)
-- [cocotb](#cocotb)
+- [VUnit](#VUnit)
 
 **Guides:**
 
@@ -139,6 +139,18 @@ The GitHub organisation includes some AXI4 [Verification IP](https://github.com/
 - Supports: Constrained Random Test Generation, Functional Coverage Collection, [and more](https://osvvm.org/about-os-vvm)
 - Link: https://osvvm.org/
 - GitHub: https://github.com/OSVVM/OSVVM
+
+### VUnit
+
+*"VUnit is an open source unit testing framework for VHDL/SystemVerilog \[...\] It features the functionality needed to realize continuous and automated testing of your HDL code. VUnit doesn’t replace but rather complements traditional testing methodologies by supporting a “test early and often” approach through automation."*
+
+Based partially on [OSVVM](#OSVVM)
+
+- Written In: VHDL/Python
+- Write Testbenches In: VHDL/System Verilog
+- License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) baring OSVVM components.
+- Link: https://vunit.github.io/index.html
+
 
 ## Guides:
 
