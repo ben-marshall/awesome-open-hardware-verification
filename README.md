@@ -43,6 +43,7 @@ use of them?
 
 - [Symbiyosys](#Symbiyosys)
 - [Verilator](#Verilator)
+- [LibreCores CI](#LibreCores-CI)
 
 **Frameworks:**
 
@@ -94,6 +95,14 @@ It also allows one to write testbenches in C++ or SystemC.
 - Write testbenches in: C++/SystemC
 - Supports: Design simuation, *Coverage collection from simulations*.
 - Link: https://www.veripool.org/projects/verilator/wiki/Intro
+
+### LibreCores CI
+
+*"LibreCores CI is a service, which provides Continuous Integration of projects being hosted on LibreCores. The objective of the service is to improve the contributor experience and to increase trust to projects by providing automated testing and health metrics of the projects."*
+
+- Currently under development at the time of writing (Dec 2018)
+- Aims to allow automation of testing for hardware designs. Think "Travis for hardware".
+- Link: https://www.librecores.org/static/librecores-ci
 
 ## Frameworks:
 
