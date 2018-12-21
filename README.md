@@ -22,6 +22,9 @@ needed is *practical* demonstration of making verification easier. This can be t
 IP which use "new language/tool `Y`", or in depth tutorials which explain how to use it for proper
 design verification.
 
+If you're after hardware *design* tools, these awesome lists are a good place to start:
+- [awesome-hdl](https://github.com/drom/awesome-hdl)
+
 ---
 
 ## Tools:
