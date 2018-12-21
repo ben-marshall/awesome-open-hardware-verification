@@ -5,10 +5,10 @@
 The aim here is to curate a (mostly) comprehensive list of available tools for verifying
 the functional correctness of Free and Open Source Hardware designs. The list can
 include:
-- Individual tools which contain or implement verification related functionality
-- Frameworks which make writing testbenches easier
-- Tutorials, guides and blog posts on how to actually go about verifying a hardware design
-
+- [Tools](#Tools) which contain or implement verification related functionality
+- [Testbench Frameworks](#Frameworks) which make writing testbenches easier
+- [Verification Guides](#Guides) and blog posts on how to actually go about verifying a hardware design
+- [Conferences](#Conferences) where new work on open source hardware verification is talked about
 
 ---
 
@@ -44,7 +44,13 @@ Features | What sort of verification functionality does the framework aim to pro
 ### Cocotb
 - TBD
 
+### riscv-formal
+- TBD
+
 ### SpinalHDL
+- TBD
+
+### MyHDL
 - TBD
 
 ### UVVM
@@ -53,6 +59,14 @@ Features | What sort of verification functionality does the framework aim to pro
 ### OSVVM
 - TBD
 
-## Guides / Tutorials / Posts:
+## Guides:
 
+- TBD
+
+## Conferences:
+
+### ORCONF
+- TBD
+
+### OSDA
 - TBD
