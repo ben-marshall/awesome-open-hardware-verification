@@ -10,6 +10,18 @@ include:
 - [Verification Guides](#Guides) and blog posts on how to actually go about verifying a hardware design
 - [Conferences](#Conferences) where new work on open source hardware verification is talked about
 
+**Note:** this list focuses on *Verification* and not *design*. While there are lots of cool new
+languages and frameworks aimed at making hardware design easier (or at least, *not Verilog/VHDL*),
+verification can sometimes get left out in the cold.
+While some new design tools/languages make the claim that "our new design tool `X` makes verification
+easier because it is written in high level language `Y`", it can often be much harder to see concrete
+evidence of this in terms of re-usable verification IP/frameworks/methods which are actually written
+in "new language/tool `Y`". It might seem mean, but just being a new design language which 
+*theoretically* makes verification easier is not enough to merit inclusion on this list. What's
+needed is *practical* demonstration of making verification easier. This can be through libraries or
+IP which use "new language/tool `Y`", or in depth tutorials which explain how to use it for proper
+design verification.
+
 ---
 
 ## Tools:
@@ -47,12 +59,6 @@ Features | What sort of verification functionality does the framework aim to pro
 ### riscv-formal
 - TBD
 
-### SpinalHDL
-- TBD
-
-### MyHDL
-- TBD
-
 ### UVVM
 - TBD
 
@@ -66,7 +72,16 @@ Features | What sort of verification functionality does the framework aim to pro
 ## Conferences:
 
 ### ORCONF
-- TBD
+
+*"ORConf is an annual conference for open source digital, semiconductor and embedded systems designers and users. Each year attendees are treated to an ever-impressive array of presentations from all corners of the open source hardware space."*
+
+- Link: https://orconf.org/
 
 ### OSDA
-- TBD
+
+*"Workshop on Open Source Design Automation (OSDA)"*
+
+*"This one-day workshop aims to bring together industrial, academic, and hobbyist actors to explore, disseminate, and network over ongoing efforts for open design automation, with a view to enabling unfettered research and development, improving EDA quality, and lowering the barriers and risks to entry for industry. These aims are particularly poignant due to the recent efforts across the European Union (and beyond) that mandate 'open access' for publicly funded research to both published manuscripts as well as any code necessary for reproducing its conclusions."*
+
+- Longer Description: https://osda.gitlab.io/motivation.html
+- Link: https://osda.gitlab.io/
