@@ -27,6 +27,28 @@ design verification.
 If you're after hardware *design* tools, these awesome lists are a good place to start:
 - [awesome-hdl](https://github.com/drom/awesome-hdl)
 
+## Contents
+
+**Tools:**
+
+- [Symbiyosys](#Symbiyosys)
+- [Verilator](#Verilator)
+
+**Frameworks:**
+
+- [cocotb](#cocotb)
+- [riscv-formal](#riscv-formal)
+- [UVVM](#UVVM)
+- [OSVVM](#OSVVM)
+- [cocotb](#cocotb)
+
+**Guides:**
+
+**Conferences:**
+
+- [ORCONF](#ORCONF)
+- [OSDA](#OSDA)
+
 ---
 
 ## Tools:
