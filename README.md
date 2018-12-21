@@ -65,8 +65,6 @@ use of them?
 
 ## Tools:
 
-For each tool entry, the following information should be included:
-
 ### SymbiYosys
 
 *"SymbiYosis a front-end driver program for Yosys-based formal hardware
@@ -98,8 +96,6 @@ It also allows one to write testbenches in C++ or SystemC.
 - Link: https://www.veripool.org/projects/verilator/wiki/Intro
 
 ## Frameworks:
-
-For each framework entry, the following information should be included:
 
 ### Cocotb
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
