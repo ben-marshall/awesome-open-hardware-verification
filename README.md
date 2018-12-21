@@ -44,6 +44,8 @@ If you're after hardware *design* tools, these awesome lists are a good place to
 
 **Guides:**
 
+- [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
+
 **Conferences:**
 
 - [ORCONF](#ORCONF)
@@ -98,17 +100,44 @@ For each framework entry, the following information should be included:
 - Link: https://github.com/potentialventures/cocotb
 
 ### riscv-formal
-- TBD
+
+A re-usable formal verification framework for RISC-V CPU designs.
+Uses the [Yosys/SymbiYosys](#SymbiYosys) tools.
+
+- License: [ISC](https://github.com/SymbioticEDA/riscv-formal/blob/master/COPYING)
+- Written In: Verilog
+- Link: https://github.com/SymbioticEDA/riscv-formal
 
 ### UVVM
-- TBD
+
+*"Open Source VHDL Verification Library and Methodology - for very efficient VHDL verification of FPGA and ASIC - resulting also in a significant quality improvement"*
+
+- License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE)
+- Written In: VHDL
+- Write Testbenches In: VHDL
+- Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features)
+- Link: https://github.com/UVVM/UVVM
 
 ### OSVVM
-- TBD
+
+*"Open Source VHDL Verification Methodology (OSVVM) provides an ASIC level VHDL verification methodology that is simple enough to use even on small FPGA projects. OSVVM offers the same capabilities as those based on other verification languages:"*
+
+The GitHub organisation includes some AXI4 [Verification IP](https://github.com/OSVVM/VerificationIP)
+
+- License: ?
+- Written In: VHDL
+- Supports: Constrained Random Test Generation, Functional Coverage Collection, [and more](https://osvvm.org/about-os-vvm)
+- Link: https://osvvm.org/
+- GitHub: https://github.com/OSVVM/OSVVM
 
 ## Guides:
 
-- TBD
+### Dan Gisselquist Formal Verification Blogs
+
+A set of posts on experiences using [Symbiyosys/Yosys](#Symbiyosys) for formally verifying a CPU design.
+Includes lots of useful insights and guides for specific and general use cases.
+
+- Link: https://zipcpu.com/formal/formal.html
 
 ## Conferences:
 
