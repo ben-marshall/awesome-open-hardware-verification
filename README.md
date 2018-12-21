@@ -31,11 +31,35 @@ If you're after hardware *design* tools, these awesome lists are a good place to
 
 For each tool entry, the following information should be included:
 
-### Yosys/Symbiyosys
-- TBD
+### SymbiYosys
+
+*"SymbiYosis a front-end driver program for Yosys-based formal hardware
+verification flows. SymbiYosys provides flows for the following formal tasks:
+Bounded verification of safety properties (assertions),
+Unbounded verification of safety properties,
+Generation of test benches from cover statements,
+Verification of liveness properties"*
+
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) (an open
+source synthesis tool) and one or more formal reasoning engines (listed
+[here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
+
+- Written In: Python
+- Write Assertions In: Verilog/SystemVerilog Assertions (SVA)
+- Supports: Formal verification of correctness properties.
+- Link: https://symbiyosys.readthedocs.io/en/latest/
 
 ### Verilator
-- TBD
+
+Verilator is  "the fastest free Verilog HDL simulator". From a verification
+perspective it supports *line coverage*, *signal toggle coverage* and limited
+specification of *functional coverage* using SystemVerilog Assertions.
+It also allows one to write testbenches in C++ or SystemC.
+
+- Written In: C++
+- Write testbenches in: C++/SystemC
+- Supports: Design simuation, *Coverage collection from simulations*.
+- Link: https://www.veripool.org/projects/verilator/wiki/Intro
 
 ## Frameworks:
 
