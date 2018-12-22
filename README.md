@@ -52,6 +52,7 @@ use of them?
 - [UVVM](#UVVM)
 - [OSVVM](#OSVVM)
 - [VUnit](#VUnit)
+- [V3](#V3)
 
 **Guides:**
 
@@ -156,6 +157,17 @@ Based partially on [OSVVM](#OSVVM)
 - License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) baring OSVVM components.
 - Link: https://vunit.github.io/index.html
 
+### V3
+
+*"V3 is a new and extensible framework for hardware verification and debugging researches on both Boolean-level and word-level designs. It is a powerful tool for users and an elaborate framework for developers as well."*
+
+Academic project, looks unmaintained since 2014.
+
+- Written In: C++
+- Write Testbenches In: Unclear?
+- License: [Non-commercial](https://github.com/chengyinwu/V3/blob/master/COPYING)
+- Supports: formal methods based approaches using AGIER / SAT Solving over verilog input files. Not entirely clear how one specifies correctness properties.
+- Link: https://github.com/chengyinwu/V3
 
 ## Guides:
 
