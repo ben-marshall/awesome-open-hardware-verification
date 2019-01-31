@@ -44,6 +44,7 @@ use of them?
 - [Symbiyosys](#Symbiyosys)
 - [Verilator](#Verilator)
 - [LibreCores CI](#LibreCores-CI)
+- [AAPG (Automated Assembly Program Generator)](#AAPG)
 
 **Frameworks:**
 
@@ -108,6 +109,18 @@ It also allows one to write testbenches in C++ or SystemC.
 - Currently under development at the time of writing (Dec 2018)
 - Aims to allow automation of testing for hardware designs. Think "Travis for hardware".
 - Link: https://www.librecores.org/static/librecores-ci
+
+## AAPG
+
+*"Automated Assembly Program Generator (aapg) is a tool that is intended to generate random RISC-V programs to test RISC-V cores."*
+
+From the [Shakti](https://gitlab.com/shaktiproject) RISC-V core project.
+Acts as a way to generate random stimulus for a RISC-V core.
+Output of the programs can then be checked between DUT and a GRM.
+
+- Link: https://gitlab.com/shaktiproject/tools/aapg
+- License: BSD 3-clause
+- Written In: Python
 
 ## Frameworks:
 
