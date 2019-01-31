@@ -54,6 +54,10 @@ use of them?
 - [VUnit](#VUnit)
 - [V3](#V3)
 
+**Components / VIPs**
+
+- [uvm_axi](#uvm_axi)
+
 **Guides:**
 
 - [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
@@ -168,6 +172,21 @@ Academic project, looks unmaintained since 2014.
 - License: [Non-commercial](https://github.com/chengyinwu/V3/blob/master/COPYING)
 - Supports: formal methods based approaches using AGIER / SAT Solving over verilog input files. Not entirely clear how one specifies correctness properties.
 - Link: https://github.com/chengyinwu/V3
+
+## Components / VIPs
+
+### uvm_axi
+
+A bus functional model for ARM's AXI bus protocol. Looks like it has been written as a standard UVM Verification Package.
+Being written in SystemVerilog (using all of its object orientated, behavioural modelling features) makes it hard
+to re-use with the current set of FOSS simulators. It is still a good example of re-usable verification IP.
+
+Last commit in 2013, so likely un-maintained.
+
+- Link: https://github.com/funningboy/uvm_axi
+- Written in: System Verilog
+- Write Testbenches In: System Verilog
+- License: GNU Lesser General Public License
 
 ## Guides:
 
