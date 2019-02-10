@@ -45,6 +45,7 @@ use of them?
 - [Verilator](#Verilator)
 - [LibreCores CI](#LibreCores-CI)
 - [AAPG (Automated Assembly Program Generator)](#AAPG)
+- [riscv-dv](#riscv-dv)
 
 **Frameworks:**
 
@@ -121,6 +122,25 @@ Output of the programs can then be checked between DUT and a GRM.
 - Link: https://gitlab.com/shaktiproject/tools/aapg
 - License: BSD 3-clause
 - Written In: Python
+
+## riscv-dv
+
+Similar to [AAPG](#AAPG), but this time from Google. 
+Generates randomised RISC-V programs which can 
+then be run by the DUT and A GRM and checked for equivilence. 
+It has knowledge of interesting features like page tables, CSR access and
+trap/interrupt handling.
+Can generate randomised instruction streams with features like loops
+and function calls etc.
+
+This project cannot be used with current free open source HDL simulators
+since it relies on the object orientated parts of UVM. It is still a
+useful piece of Verification IP though, and serves as a guide for other
+similar projects.
+
+- Link: https://github.com/google/riscv-dv
+- License: Apache-2.0
+- Written In: SystemVerilog + UVM
 
 ## Frameworks:
 
