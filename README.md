@@ -59,6 +59,7 @@ use of them?
 **Components / VIPs**
 
 - [uvm_axi](#uvm_axi)
+- [AXI Bus Formal VIP](#AXI_Bus_Formal_VIP)
 
 **Guides:**
 
@@ -222,6 +223,18 @@ Last commit in 2013, so likely un-maintained.
 - Written in: System Verilog
 - Write Testbenches In: System Verilog
 - License: GNU Lesser General Public License
+
+### AXI Bus Formal VIP
+
+A set of formal properties for checking for correct protocol behaviour in an AXI bus.
+Used as part of a Wishbone-AXI bus bridge, but usable with any AXI bus.
+There is a great blog post on it's use [here](https://zipcpu.com/formal/2018/12/28/axilite.html) from ZipCPU.
+It works with SymbiYosys.
+
+- Link: https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v
+- Written in: Verilog
+- Write Testbenches In: Verilog
+- License: None specified
 
 ## Guides:
 
