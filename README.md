@@ -46,6 +46,7 @@ use of them?
 - [LibreCores CI](#LibreCores-CI)
 - [AAPG (Automated Assembly Program Generator)](#AAPG)
 - [riscv-dv](#riscv-dv)
+- [covered](#covered)
 
 **Frameworks:**
 
@@ -142,6 +143,14 @@ similar projects.
 - Link: https://github.com/google/riscv-dv
 - License: Apache-2.0
 - Written In: SystemVerilog + UVM
+
+### covered
+
+*"Covered is a Verilog code coverage analysis tool that can be useful for determining how well a diagnostic test suite is covering the design under test."* ... *"Covered reads in the Verilog design files and a VCD, LXT or FST formatted dumpfile from a diagnostic run and generates a database file called a Coverage Description Database (CDD) file"* ... "*Once a CDD file is created, the user can use Covered to generate various human-readable coverage reports in an ASCII format or use Covered's GUI to interactively look at coverage results*".
+
+- Link: https://github.com/anders-code/verilog-covered
+- License: GPL-2.0
+- Written In: C
 
 ## Frameworks:
 
