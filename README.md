@@ -70,6 +70,7 @@ use of them?
 
 - [ORCONF](#ORCONF)
 - [OSDA](#OSDA)
+- [CHIPS Alliance Workshop on Open Source Design Verification](#CHIPS-Alliance-Workshop-on-Open-Source-Design-Verification)
 
 ---
 
@@ -270,3 +271,20 @@ Includes lots of useful insights and guides for specific and general use cases.
 
 - Longer Description: https://osda.gitlab.io/motivation.html
 - Link: https://osda.gitlab.io/
+
+### CHIPS Alliance Workshop on Open Source Design Verification
+
+*"The workshop invites contributions from industry, academia and hobbyists, either as talk or tutorial. Proposals should cover open source design simulation and verification, for example in the following categories (but not limited to):
+
+    Open source simulation tools
+    Open source design verification tools
+    Open source rapid prototyping tools and methodologies
+    Open source libraries for design verification
+    Open source standards and methodologies for design verification
+    Industry case studies of usage and integration of the aforementioned
+
+Most importantly, your submitted proposal should cover the open source aspect."*
+
+- Link: https://chipsalliance.org/workshops-meetings/
+- Date: November 14-15, 2019
+- Location: Munich, Germany
