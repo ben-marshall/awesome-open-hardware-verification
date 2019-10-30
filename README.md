@@ -47,6 +47,8 @@ use of them?
 - [AAPG (Automated Assembly Program Generator)](#AAPG)
 - [riscv-dv](#riscv-dv)
 - [covered](#covered)
+- [svlint](#svlint)
+- [sv-parser](#sv-parser)
 
 **Frameworks:**
 
@@ -152,6 +154,22 @@ similar projects.
 - Link: https://github.com/anders-code/verilog-covered
 - License: GPL-2.0
 - Written In: C
+
+### svlint
+
+An open source, MIT licensed SystemVerilog linting tool. Built on top of an open source [SystemVerilog parser](#sv-parser).
+
+- Link: https://github.com/dalance/svlint
+- License: MIT
+- Written In: Rust
+
+### sv-parser
+
+An open source, MIT/Apache licensed SystemVerilog parser/ Useful for quickly building custom tools / checkers.
+
+- Link: https://github.com/dalance/sv-parser
+- License: MIT / Apache
+- Written In: Rust
 
 ## Frameworks:
 
