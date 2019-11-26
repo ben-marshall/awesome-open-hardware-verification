@@ -62,7 +62,7 @@ use of them?
 **Components / VIPs**
 
 - [uvm_axi](#uvm_axi)
-- [AXI Bus Formal VIP](#AXI_Bus_Formal_VIP)
+- [AXI Bus Formal VIP](#axi-bus-formal-vip)
 
 **Guides:**
 
