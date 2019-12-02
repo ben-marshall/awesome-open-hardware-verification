@@ -49,6 +49,7 @@ use of them?
 - [covered](#covered)
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
+- [rggen](#rggen) (Code generation tool for configuration and status registers)
 
 **Frameworks:**
 
@@ -63,6 +64,8 @@ use of them?
 
 - [uvm_axi](#uvm_axi)
 - [AXI Bus Formal VIP](#axi-bus-formal-vip)
+- [AXI Bus Functional Model tvip-axi](AXI-Bus-Functional-Model---tvip-axi)
+- [APB Bus Functional Model tvip-apb](APB-Bus-Functional-Model---tvip-apb)
 
 **Guides:**
 
@@ -171,6 +174,17 @@ An open source, MIT/Apache licensed SystemVerilog parser/ Useful for quickly bui
 - License: MIT / Apache
 - Written In: Rust
 
+### RgGen
+
+"*RgGen is a code generation tool for ASIC/IP/FPGA/RTL engineers. It will
+automatically generate soruce code related to configuration and status
+registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
+human readable register map specifications.*"
+
+- Link: https://github.com/rggen/rggen
+- License: MIT
+- Written in: Ruby
+
 ## Frameworks:
 
 ### Cocotb
@@ -263,6 +277,26 @@ It works with SymbiYosys.
 - Written in: Verilog
 - Write Testbenches In: Verilog
 - License: None specified
+
+### AXI Bus Functional Model - tvip-axi
+
+Bus function model for AMBA AXI protocol.
+Supports master and slave agents, AXI4 and AXI4-Lite protocols.
+Configurable address/data/id widths.
+Supports in/out-of-order responses, delayed responses and read interleaving.
+
+- Link: https://github.com/taichi-ishitani/tvip-axi
+- Written in: SystemVerilog and UVM
+- License: Apache-2.0
+
+### APB Bus Functional Model - tvip-apb
+
+Bus function model for AMBA APB protocol
+
+- Link: https://github.com/taichi-ishitani/tvip-apb
+- Written in: SystemVerilog and UVM
+- License: Apache-2.0
+
 
 ## Guides:
 
