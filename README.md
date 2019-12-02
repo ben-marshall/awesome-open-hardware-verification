@@ -50,6 +50,7 @@ use of them?
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
+- [EBMC / CBMC](#EBMC-/-CBMC) (Model checker for C/C++ and hardware designs)
 
 **Frameworks:**
 
@@ -184,6 +185,41 @@ human readable register map specifications.*"
 - Link: https://github.com/rggen/rggen
 - License: MIT
 - Written in: Ruby
+
+
+### EBMC / CBMC
+
+**EBMC:**
+
+"*EBMC is a Model Checker for hardware designs. It includes both bounded and
+unbounded analysis, i.e., it can both discover bugs and is also able to prove
+the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
+Verilog and SMV files. Properties can be given in LTL or a fragment of System
+Verilog Assertions.*"
+
+- Link: http://www.cprover.org/ebmc/
+- Licence: http://www.cprover.org/ebmc/download/license.txt
+- Written in: _Unknown_.
+
+Note: Only the binaries for EBMC can be downloaded, no source-code is
+available.  It's included on this list because it is a powerful tool which
+would otherwise not be available to the open hardware community.
+For a completely free and open tool with similar capabilities,
+look at [SymbiYosys](#Symbiyosys).
+
+**CBMC:**
+
+"*CBMC is a Bounded Model Checker for C and C++ programs.*"
+
+"*Furthermore, it can check C and C++ for consistency with other languages,
+such as Verilog. The verification is performed by unwinding the loops in the
+program and passing the resulting equation to a decision procedure.*"
+
+- Link: http://www.cprover.org/cbmc/
+  - Source: https://github.com/diffblue/cbmc
+- Licence: https://github.com/diffblue/cbmc/blob/develop/LICENSE
+- Written in: C++.
+
 
 ## Frameworks:
 
