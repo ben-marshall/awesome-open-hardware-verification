@@ -64,8 +64,8 @@ use of them?
 
 - [uvm_axi](#uvm_axi)
 - [AXI Bus Formal VIP](#axi-bus-formal-vip)
-- [AXI Bus Functional Model tvip-axi](AXI-Bus-Functional-Model---tvip-axi)
-- [APB Bus Functional Model tvip-apb](APB-Bus-Functional-Model---tvip-apb)
+- [AXI Bus Functional Model tvip-axi](#AXI-Bus-Functional-Model---tvip-axi)
+- [APB Bus Functional Model tvip-apb](#APB-Bus-Functional-Model---tvip-apb)
 
 **Guides:**
 
