@@ -50,7 +50,7 @@ use of them?
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
-- [EBMC / CBMC](#EBMC-/-CBMC) (Model checker for C/C++ and hardware designs)
+- [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 
 **Frameworks:**
 
