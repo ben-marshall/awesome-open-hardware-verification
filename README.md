@@ -49,7 +49,7 @@ use of them?
 - [covered](#covered)
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
-- [Surelog](#Surelog-System-Verilog-2017-Pre-processor,-Parser)
+- [Surelog](#surelog-system-verilog-2017-pre-processor-parser)
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 
