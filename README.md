@@ -49,6 +49,7 @@ use of them?
 - [covered](#covered)
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
+- [Surelog](#Surelog-System-Verilog-2017-Pre-processor,-Parser)
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 
@@ -174,6 +175,19 @@ An open source, MIT/Apache licensed SystemVerilog parser/ Useful for quickly bui
 - Link: https://github.com/dalance/sv-parser
 - License: MIT / Apache
 - Written In: Rust
+
+### Surelog: System Verilog 2017 Pre-processor, Parser
+
+*"This project aims at providing a complete System Verilog 2017 front-end: 
+a preprocessor, a parser, an elaborator for both design and testbench."* 
+
+*"Linter, Simulator, Synthesis tool, Formal tools can use this front-end.
+They either can be developed as plugins (linked with) or use this front-end
+as an intermediate step of their compilation flows"*.
+
+- Link: https://github.com/alainmarcel/Surelog
+- License: Apache 2.0
+- Written In: C++ with Python bindings.
 
 ### RgGen
 
