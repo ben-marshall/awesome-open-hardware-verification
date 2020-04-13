@@ -57,6 +57,7 @@ use of them?
 **Frameworks:**
 
 - [cocotb](#cocotb)
+- [fvutils/pycsv](#fvuitls/pycsv) - Python packages providing a library for Verification Stimulus and Coverage
 - [riscv-formal](#riscv-formal)
 - [UVVM](#UVVM)
 - [OSVVM](#OSVVM)
@@ -253,6 +254,16 @@ program and passing the resulting equation to a decision procedure.*"
 - Implemented in: Python
 - Write Testbeches In: Python
 - Link: https://github.com/potentialventures/cocotb
+
+### fvutils/pyvsc
+
+*"PyVSC is a Python library that implements random verification-stimulus generation and coverage collection.
+[...] Currently, the Python-embedded domain-specific language supports similar features to those supported by SystemVerilog. Not all SystemVerilog features are supported, but in some cases features not supported by SystemVerilog are also supported. Please see the following section [PyVSC Features](https://py-vsc.readthedocs.io/en/latest/features.html#pyvsc-features)"*
+
+- Written in: Python
+- License: [Apache-2.0](https://github.com/fvutils/pyvsc/blob/master/LICENSE)
+- Documentation: https://py-vsc.readthedocs.io/en/latest/
+- Link: https://github.com/fvutils/pyvsc
 
 ### riscv-formal
 
