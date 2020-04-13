@@ -57,7 +57,7 @@ use of them?
 **Frameworks:**
 
 - [cocotb](#cocotb)
-- [fvutils/pycsv](#fvuitls/pycsv) - Python packages providing a library for Verification Stimulus and Coverage
+- [fvutils/pycsv](#fvuitlspycsv) - Python packages providing a library for Verification Stimulus and Coverage
 - [riscv-formal](#riscv-formal)
 - [UVVM](#UVVM)
 - [OSVVM](#OSVVM)
