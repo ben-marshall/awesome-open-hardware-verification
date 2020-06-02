@@ -72,6 +72,10 @@ use of them?
 - [AXI Bus Functional Model tvip-axi](#AXI-Bus-Functional-Model---tvip-axi)
 - [APB Bus Functional Model tvip-apb](#APB-Bus-Functional-Model---tvip-apb)
 
+**Projects**
+
+- [OpenHW Group Functional Verification](#OpenHW-Group-Functional-Verification)
+
 **Guides:**
 
 - [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
@@ -406,6 +410,24 @@ community in the hope that they may be useful to someone else."*
 
 - Link: https://blog.verificationgentleman.com/
 - GitHub organisation with example code: https://github.com/verification-gentleman-blog
+
+
+## Projects
+
+### OpenHW Group Functional Verification
+
+The [OpenHW group](https://www.openhwgroup.org/) are a
+not-for-profit focused on "*development of open-source cores,
+related IP, tools and software.*"
+
+This particular repository contains their functional verification
+efforts for their open source RISC-V CPUs. It's a good place
+to look at how a large verification project is planned and
+organised.
+
+- Github Link: https://github.com/openhwgroup/core-v-verif
+- Verification Strategy Document: https://core-v-docs-verif-strat.readthedocs.io/en/latest/
+- License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md)
 
 ## Conferences:
 
