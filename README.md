@@ -75,6 +75,7 @@ use of them?
 **Guides:**
 
 - [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
+- [Verification Gentleman Blog](#Verification-Gentleman-Blog)
 
 **Conferences:**
 
@@ -394,6 +395,17 @@ A set of posts on experiences using [Symbiyosys/Yosys](#Symbiyosys) for formally
 Includes lots of useful insights and guides for specific and general use cases.
 
 - Link: https://zipcpu.com/formal/formal.html
+
+### Verification Gentleman Blog
+
+Written by [Tudor Timi](https://github.com/tudortimi):
+*"I started the Verification Gentleman blog to store 
+solutions to small (and big) problems I've faced in my 
+day to day work. I want to share them with the
+community in the hope that they may be useful to someone else."*
+
+- Link: https://blog.verificationgentleman.com/
+- GitHub organisation with example code: https://github.com/verification-gentleman-blog
 
 ## Conferences:
 
