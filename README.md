@@ -57,6 +57,7 @@ use of them?
 **Frameworks:**
 
 - [cocotb](#cocotb)
+- [python-uvm](#python-uvm) - A port of UVM 1.2 to Python and [cocotb](#cocotb).
 - [fvutils/pycsv](#fvutilspyvsc) - Python packages providing a library for Verification Stimulus and Coverage
 - [riscv-formal](#riscv-formal)
 - [UVVM](#UVVM)
@@ -254,6 +255,23 @@ program and passing the resulting equation to a decision procedure.*"
 - Implemented in: Python
 - Write Testbeches In: Python
 - Link: https://github.com/potentialventures/cocotb
+
+
+### python-uvm
+
+*"This is a port of SystemVerilog (SV) Universal Verification Methodology (UVM) 1.2 to Python and cocotb. [...]
+UVM is not currently supported by any open source/free tools. cocotb offers excellent solution to interact
+with any simulator (free/commercial), so testbenches can be written in Python as well. uvm-python tries to
+offer an API similar to the original SV version. This means that many UVM verificaton skills are
+transferable from SV to Python very easily."*
+
+- License: [Apache-2.0](https://github.com/tpoikela/uvm-python/blob/master/LICENSE)
+- Implemented in: Python
+- Write Testbenches In: Python
+- Link: https://github.com/tpoikela/uvm-python
+- Documentation: https://uvm-python.readthedocs.io/en/latest/
+- Users Guide: https://uvm-python.readthedocs.io/en/latest/uvm_users_guide_1.2.html
+
 
 ### fvutils/pyvsc
 
