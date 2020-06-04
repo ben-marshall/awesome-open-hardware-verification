@@ -7,6 +7,7 @@ the functional correctness of Free and Open Source Hardware designs. The list ca
 include:
 - [Tools](#Tools) which contain or implement verification related functionality
 - [Testbench Frameworks](#Frameworks) which make writing testbenches easier
+- [Projects](#Projects) which are good examples of free/open hardware verification efforts
 - [Verification Guides](#Guides) and blog posts on how to actually go about verifying a hardware design
 - [Conferences](#Conferences) where new work on open source hardware verification is talked about
 
@@ -75,6 +76,7 @@ use of them?
 **Projects**
 
 - [OpenHW Group Functional Verification](#OpenHW-Group-Functional-Verification)
+- [LowRISC Style Guides](#LowRISC-Style-Guides)
 
 **Guides:**
 
@@ -428,6 +430,15 @@ organised.
 - Github Link: https://github.com/openhwgroup/core-v-verif
 - Verification Strategy Document: https://core-v-docs-verif-strat.readthedocs.io/en/latest/
 - License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md)
+
+### LowRISC Style Guides
+
+These are the style guides used by the 
+[LowRISC project](https://www.lowrisc.org/)
+for writing both RTL and UVM based testbenches.
+
+- License: [CC-BY-4.0](https://github.com/lowRISC/style-guides/blob/master/LICENSE)
+- Link: https://github.com/lowRISC/style-guides
 
 ## Conferences:
 
