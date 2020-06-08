@@ -54,6 +54,7 @@ use of them?
 - [Surelog](#surelog-system-verilog-2017-pre-processor-parser)
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
+- [fsva](#fsva)
 
 **Frameworks:**
 
@@ -251,6 +252,16 @@ program and passing the resulting equation to a decision procedure.*"
   - Source: https://github.com/diffblue/cbmc
 - Licence: https://github.com/diffblue/cbmc/blob/develop/LICENSE
 - Written in: C++.
+
+### fsva
+
+"*fsva (FuseSoc Verification Automation) is a tool that aims to automate
+the verification process of libraries and HDL design projects managed
+with [FuseSoc](https://github.com/olofk/fusesoc) build tool/system.*"
+
+- Link: https://github.com/m-kru/fsva
+- License: MIT
+- Written in: Python
 
 
 ## Frameworks:
