@@ -483,8 +483,8 @@ for writing both RTL and UVM based testbenches.
 Most importantly, your submitted proposal should cover the open source aspect."*
 
 - Link: https://chipsalliance.org/workshops-meetings/
-- Date: November 14-15, 2019
 - Location: Munich, Germany
+
 
 ### Workshop on Open-Source EDA Technology (WOSET)
 
@@ -493,12 +493,12 @@ The workshop will bring together EDA researchers who are committed to
 open-source principles to share their experiences and coordinate efforts
 towards developing a reliable, fully open-source EDA flow."*
 
-Often has verification related tools, presentations and papers.
+- Link: https://woset-workshop.github.io/
 
-Submissions (2-4 pages):
+Often has verification related tools, presentations and papers Submissions (2-4 pages)
+can include:
+
 - Overview of an existing or under-development open-source EDA tool.
 - Overview of support infrastructure (e.g. EDA databases and design benchmarks).
 - Open-source cloud-based EDA tools
 - Position statements (e.g. critical gaps, blockers/obstacles)
-
-- Link: https://woset-workshop.github.io/
