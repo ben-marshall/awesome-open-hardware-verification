@@ -80,10 +80,11 @@ use of them?
 - [OpenHW Group Functional Verification](#OpenHW-Group-Functional-Verification)
 - [LowRISC Style Guides](#LowRISC-Style-Guides)
 
-**Guides:**
+**Guides & Blogs:**
 
 - [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
 - [Verification Gentleman Blog](#Verification-Gentleman-Blog)
+- [Bits, Bytes and Gates](#Bits-Bytes-and-Gates)
 
 **Conferences:**
 
@@ -437,6 +438,19 @@ community in the hope that they may be useful to someone else."*
 
 - Link: https://blog.verificationgentleman.com/
 - GitHub organisation with example code: https://github.com/verification-gentleman-blog
+
+### Bits Bytes and Gates
+
+This is [Matthew Ballance's](https://github.com/mballance)
+(author of [fvutils/pycsv](#fvutilspyvsc)) blog,
+full of 
+"*Musings on hardware and embedded software design and verification,
+and the EDA tools and methodologies that support them.*"
+
+There's some good stuff on using Python for coverage, constrained
+random stimulus generation and verification / EDA generally.
+
+- Link: http://bitsbytesgates.blogspot.com/
 
 
 ## Projects
