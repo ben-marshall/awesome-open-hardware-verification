@@ -73,6 +73,7 @@ use of them?
 - [AXI Bus Formal VIP](#axi-bus-formal-vip)
 - [AXI Bus Functional Model tvip-axi](#AXI-Bus-Functional-Model---tvip-axi)
 - [APB Bus Functional Model tvip-apb](#APB-Bus-Functional-Model---tvip-apb)
+- [USB 1.1 Test Suite](#Antmicro-USB-Test-Suite)
 
 **Projects**
 
@@ -403,6 +404,18 @@ Bus function model for AMBA APB protocol
 - Link: https://github.com/taichi-ishitani/tvip-apb
 - Written in: SystemVerilog and UVM
 - License: Apache-2.0
+
+
+### Antmicro USB Test Suite
+
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) based
+ USB 1.1 test suite (to be extended to cover higher versions of 
+the standard) for FPGA IP, with testbenches for a variety of open
+source USB cores.*"
+
+- Link: https://github.com/antmicro/usb-test-suite-build
+- Written in: Cocotb / Python 3
+- License: None
 
 
 ## Guides:
