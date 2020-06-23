@@ -47,7 +47,7 @@ use of them?
 - [Verilator](#Verilator)
 - [LibreCores CI](#LibreCores-CI)
 - [AAPG (Automated Assembly Program Generator)](#AAPG)
-- [riscv-dv](#riscv-dv)
+- [riscv-dv](#riscv-dv) - Instruction sequence generator for RISC-V
 - [covered](#covered)
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
@@ -55,6 +55,7 @@ use of them?
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 - [fsva](#fsva)
+- [FORCE-RISCV])(#force-riscv) - Another instruction sequence generator for RISC-V
 
 **Frameworks:**
 
@@ -266,6 +267,26 @@ with [FuseSoc](https://github.com/olofk/fusesoc) build tool/system.*"
 - License: MIT
 - Written in: Python
 
+### FORCE-RISCV
+
+"*FORCE-RISCV is an instruction sequence generator (ISG) for the RISC-V instruction set architecture. It can be used to generate tests for design verification of RISC-V processors. FORCE-RISCV uses randomization to choose instructions, registers, addresses and data for the tests, and can generate valid test sequences with very little input from the user. However, FORCE-RISCV provides a set of APIs with extensive capabilities which gives the user a high level of control over how the instruction generation takes place.*"
+
+This makes it similar to [riscv-dv](#riscv-dv), but you don't
+need a SystemVerilog simulator to run it.
+It is maintained by the [OpenHW Group](https://www.openhwgroup.org/)
+
+Feature set:
+- RV64G - (RV64I, MAFDC). (V extension support planned)
+- RISC-V privileged ISA, including full support for the U, S, and M privilege levels.
+- RISC-V traps and exceptions basic handling.
+- Support for non-trivial exception handlers is planned.
+- Full support for the v48 virtual memory systems, including 4KB, 2MB, 1GB and 512GB page sizes.
+
+Details:
+- Link: https://github.com/openhwgroup/force-riscv
+- License: [Apache-2.0](https://github.com/openhwgroup/force-riscv/blob/master/LICENSE)
+- Written In: C++, Python3
+- Write Tests In: Python3
 
 ## Frameworks:
 
