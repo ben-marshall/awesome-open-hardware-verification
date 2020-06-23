@@ -55,7 +55,7 @@ use of them?
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 - [fsva](#fsva)
-- [FORCE-RISCV])(#force-riscv) - Another instruction sequence generator for RISC-V
+- [FORCE-RISCV](#force-riscv) - Another instruction sequence generator for RISC-V
 
 **Frameworks:**
 
