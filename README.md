@@ -56,6 +56,7 @@ use of them?
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 - [fsva](#fsva)
 - [FORCE-RISCV](#force-riscv) - Another instruction sequence generator for RISC-V
+- [RISC-V-TLM](#RISC-V-TLM) - A SystemC transaction level model of RISC-V
 
 **Frameworks:**
 
@@ -287,6 +288,15 @@ Details:
 - License: [Apache-2.0](https://github.com/openhwgroup/force-riscv/blob/master/LICENSE)
 - Written In: C++, Python3
 - Write Tests In: Python3
+
+### RISC-V-TLM
+
+"*This is another RISC-V ISA simulator, this is coded in SystemC + TLM-2. It supports RV32IMAC Instruction set by now.*"
+
+Details:
+- Link: https://github.com/mariusmm/RISC-V-TLM
+- License: [GPL-3.0](https://github.com/mariusmm/RISC-V-TLM/blob/master/LICENSE)
+- Written In: C++ / SystemC
 
 ## Frameworks:
 
