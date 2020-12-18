@@ -74,6 +74,7 @@ use of them?
 - [uvm_axi](#uvm_axi)
 - [AXI Bus Formal VIP](#axi-bus-formal-vip)
 - [AXI Bus Functional Model tvip-axi](#AXI-Bus-Functional-Model---tvip-axi)
+- [AXI SystemVerilog Modules and Verification Infrastructure](#AXI-SystemVerilog-Modules-and-Verification-Infrastructure)
 - [APB Bus Functional Model tvip-apb](#APB-Bus-Functional-Model---tvip-apb)
 - [USB 1.1 Test Suite](#Antmicro-USB-Test-Suite)
 
@@ -428,6 +429,20 @@ Supports in/out-of-order responses, delayed responses and read interleaving.
 - Link: https://github.com/taichi-ishitani/tvip-axi
 - Written in: SystemVerilog and UVM
 - License: Apache-2.0
+
+### AXI SystemVerilog Modules and Verification Infrastructure
+
+SystemVerilog modules, testbenches, and test classes for AMBA AXI4 and
+AXI4-Lite.  Provides parametrizable and synthesizable implementations of many
+common AXI modules (e.g., crossbars, data width converters) and testbenches for
+them.  Provides test classes (drivers and monitors) to write custom testbenches.
+Provides protocol-compliant multiplexers and demultiplexers to simplify the
+implementation and verification of custom AXI modules.
+
+- Link: https://github.com/pulp-platform/axi
+- Written in: SystemVerilog
+- License: Solderpad Hardware License v0.51
+
 
 ### APB Bus Functional Model - tvip-apb
 
