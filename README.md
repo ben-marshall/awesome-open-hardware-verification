@@ -61,7 +61,8 @@ when I get the time to remember how Github Pages works.
 #### Build Systems and Continuous Integration:
 
 - [LibreCores CI](#LibreCores-CI)
-- [fsva](#fsva) - FuseSoC Verification Automation
+- [FuseSoc](#FuseSoC) - Package manager and build abstraction tool for FPGA/ASIC development.
+  - [fsva](#fsva) - FuseSoC Verification Automation
 
 #### Test / Program / Code Generators:
 
@@ -293,6 +294,21 @@ program and passing the resulting equation to a decision procedure.*"
   - Source: https://github.com/diffblue/cbmc
 - Licence: https://github.com/diffblue/cbmc/blob/develop/LICENSE
 - Written in: C++.
+
+### FuseSoC
+
+From the project README: *FuseSoC is an award-winning package manager and a set
+of build tools for HDL (Hardware Description Language) code. Its main purpose
+is to increase reuse of IP (Intellectual Property) cores and be an aid for
+creating, building and simulating SoC solutions.*
+
+My Opinion: If you need a tool to manage you HDL or testbench dependencies,
+package your IP for easy sharing, or generally just make your hardware design
+and verification life easier, FuseSoC is a great place to start.
+
+- Link: https://github.com/olofk/fusesoc
+- Written in: Python
+- License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE)
 
 ### fsva
 
