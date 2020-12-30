@@ -40,36 +40,60 @@ use of them?
 
 ## Contents
 
-**Tools:**
+This list has grown a lot lately, and the original taxonomy of tools/frameworks
+I had is starting to break down. I'll probably switch to a proper website
+when I get the time to remember how Github Pages works.
+
+### Tools
+
+#### Formal Verification:
 
 - [Symbiyosys](#Symbiyosys)
+  - [riscv-formal](#riscv-formal)
 - [MCY](#MCY) - Testbench coverage tool.
-- [Verilator](#Verilator)
+- [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
+
+#### Simulation:
+
+- [Verilator](#Verilator) - Verilog Simulator
+- [Icarus Verilog](#Icarus-Verilog) - Icarus Verilog Simulator
+
+#### Build Systems and Continuous Integration:
+
 - [LibreCores CI](#LibreCores-CI)
+- [fsva](#fsva) - FuseSoC Verification Automation
+
+#### Test / Program / Code Generators:
+
 - [AAPG (Automated Assembly Program Generator)](#AAPG)
 - [riscv-dv](#riscv-dv) - Instruction sequence generator for RISC-V
+- [rggen](#rggen) (Code generation tool for configuration and status registers)
+- [FORCE-RISCV](#force-riscv) - Another instruction sequence generator for RISC-V
+
+#### Coverage:
+
 - [covered](#covered)
+
+#### Linting and Parsing:
+
 - [svlint](#svlint)
 - [sv-parser](#sv-parser)
 - [Surelog](#surelog-system-verilog-2017-pre-processor-parser)
-- [rggen](#rggen) (Code generation tool for configuration and status registers)
-- [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
-- [fsva](#fsva)
-- [FORCE-RISCV](#force-riscv) - Another instruction sequence generator for RISC-V
-- [RISC-V-TLM](#RISC-V-TLM) - A SystemC transaction level model of RISC-V
 
-**Frameworks:**
+### Testbench Frameworks:
 
-- [cocotb](#cocotb)
-- [python-uvm](#python-uvm) - A port of UVM 1.2 to Python and [cocotb](#cocotb).
+- [cocotb](#cocotb) - Python based testbench environment for many simulators
+  - [python-uvm](#python-uvm) - A port of UVM 1.2 to Python and [cocotb](#cocotb).
+  - [cocotb-coverage](#cocotb-coverage) - Functional Coverage and Constrained Randomization extensions for Cocotb.
+  - [Verification IPs](#cocotb-ips) - Various cocotb packages for common interfaces: AXI/Ethernet/PCIE
 - [fvutils/pycsv](#fvutilspyvsc) - Python packages providing a library for Verification Stimulus and Coverage
-- [riscv-formal](#riscv-formal)
+- [chiselverify](#chisel-verify) - UVM-like verification for the Chisel HDL
 - [UVVM](#UVVM)
 - [OSVVM](#OSVVM)
 - [VUnit](#VUnit)
 - [V3](#V3)
 
-**Components / VIPs**
+### Components / VIPs
 
 - [uvm_axi](#uvm_axi)
 - [AXI Bus Formal VIP](#axi-bus-formal-vip)
@@ -77,19 +101,21 @@ use of them?
 - [AXI SystemVerilog Modules and Verification Infrastructure](#AXI-SystemVerilog-Modules-and-Verification-Infrastructure)
 - [APB Bus Functional Model tvip-apb](#APB-Bus-Functional-Model---tvip-apb)
 - [USB 1.1 Test Suite](#Antmicro-USB-Test-Suite)
+- [Cocotb Verification IPs](#cocotb-ips) - Various cocotb packages for common interfaces: AXI/Ethernet/PCIE
+- [RISC-V-TLM](#RISC-V-TLM) - A SystemC transaction level model of RISC-V
 
-**Projects**
+### Projects
 
 - [OpenHW Group Functional Verification](#OpenHW-Group-Functional-Verification)
 - [LowRISC Style Guides](#LowRISC-Style-Guides)
 
-**Guides & Blogs:**
+### Guides & Blogs:
 
 - [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
 - [Verification Gentleman Blog](#Verification-Gentleman-Blog)
 - [Bits, Bytes and Gates](#Bits-Bytes-and-Gates)
 
-**Conferences:**
+### Conferences:
 
 - [ORCONF](#ORCONF)
 - [OSDA](#OSDA)
@@ -134,9 +160,18 @@ specification of *functional coverage* using SystemVerilog Assertions.
 It also allows one to write testbenches in C++ or SystemC.
 
 - Written In: C++
-- Write testbenches in: C++/SystemC
+- Write testbenches in: C++/SystemC/Verilog
 - Supports: Design simuation, *Coverage collection from simulations*.
 - Link: https://www.veripool.org/projects/verilator/wiki/Intro
+
+### Icarus Verilog
+
+The excellent Icarus Verilog simulator.
+Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
+Z's).
+
+- Write testbenches in: Verilog, or use [cocotb](#cocotb).
+- Link: http://iverilog.icarus.com/
 
 ### LibreCores CI
 
@@ -326,6 +361,31 @@ transferable from SV to Python very easily."*
 - Users Guide: https://uvm-python.readthedocs.io/en/latest/uvm_users_guide_1.2.html
 
 
+### Cocotb Coverage
+
+*Functional Coverage and Constrained Randomization Extensions for Cocotb.*
+
+*This package allows you to use constrained randomization and functional coverage techniques known from CRV (constrained random verification) and MDV (metric-driven verification) methodologies, available in SystemVerilog or e. Such extensions enable the implementation of an advanced verification environment for complex projects.*
+
+There is also a DVCon'17 [presentation](http://events.dvcon.org/2017/proceedings/papers/02_3.pdf).
+
+- Implemented in: Python
+- Write Testbenches in: Python
+- License: [BSD-2-Clause](https://github.com/mciepluc/cocotb-coverage/blob/master/LICENSE)
+- Link: https://github.com/mciepluc/cocotb-coverage
+
+
+### Cocotb IPs
+
+Listed here are various cocotb plugins for common interfaces or modules:
+
+Interface / Module | Author | License
+-------------------|--------|----------------
+[AXI Bus](https://github.com/alexforencich/cocotbext-axi)  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) |  MIT
+[Ethernet](https://github.com/alexforencich/cocotbext-eth) | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) |  MIT
+[PCIe](https://github.com/alexforencich/cocotbext-pcie)    | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) |  MIT
+
+
 ### fvutils/pyvsc
 
 *"PyVSC is a Python library that implements random verification-stimulus generation and coverage collection.
@@ -356,6 +416,20 @@ There is also an accompanying library of user contributed VIPs: [UVVM_Community_
 - Write Testbenches In: VHDL
 - Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features)
 - Link: https://github.com/UVVM/UVVM
+
+
+### Chisel Verify
+
+From the project README: *This repo is for the project to explore the
+combination and interaction of Chisel and UVM. The ultimate goal is a
+verification framework within Scala for digital hardware described in Chisel
+also supporting legacy components in VHDL, Verilog, or SystemVerilog.*
+
+- Written In: Scala/Chisel
+- Write testbenches in: Scala/Chisel
+- License: [Apache-2.0](https://github.com/chiselverify/chiselverify/blob/master/LICENSE.txt)
+- Link: https://github.com/chiselverify/chiselverify
+
 
 ### OSVVM
 
