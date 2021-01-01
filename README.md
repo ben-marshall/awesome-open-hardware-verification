@@ -355,10 +355,10 @@ Details:
 ### Cocotb
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-- Licence: [Revised BSD License](https://github.com/potentialventures/cocotb/blob/master/LICENSE)
+- Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE)
 - Implemented in: Python
 - Write Testbeches In: Python
-- Link: https://github.com/potentialventures/cocotb
+- Link: https://github.com/cocotb/cocotb
 
 
 ### python-uvm
