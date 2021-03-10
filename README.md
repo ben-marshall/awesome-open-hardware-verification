@@ -87,7 +87,7 @@ when I get the time to remember how Github Pages works.
   - [python-uvm](#python-uvm) - A port of UVM 1.2 to Python and [cocotb](#cocotb).
   - [cocotb-coverage](#cocotb-coverage) - Functional Coverage and Constrained Randomization extensions for Cocotb.
   - [Verification IPs](#cocotb-ips) - Various cocotb packages for common interfaces: AXI/Ethernet/PCIE
-- [fvutils/pycsv](#fvutilspyvsc) - Python packages providing a library for Verification Stimulus and Coverage
+- [fvutils/pyvsc](#fvutilspyvsc) - Python packages providing a library for Verification Stimulus and Coverage
 - [chiselverify](#chisel-verify) - UVM-like verification for the Chisel HDL
 - [UVVM](#UVVM)
 - [OSVVM](#OSVVM)
