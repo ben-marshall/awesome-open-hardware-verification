@@ -93,6 +93,7 @@ when I get the time to remember how Github Pages works.
 - [OSVVM](#OSVVM)
 - [VUnit](#VUnit)
 - [V3](#V3)
+- [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) for building and executing testbenches.
 
 ### Components / VIPs
 
@@ -481,6 +482,15 @@ Academic project, looks unmaintained since 2014.
 - License: [Non-commercial](https://github.com/chengyinwu/V3/blob/master/COPYING)
 - Supports: formal methods based approaches using AGIER / SAT Solving over verilog input files. Not entirely clear how one specifies correctness properties.
 - Link: https://github.com/chengyinwu/V3
+
+### ROHD Verification Framework
+*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd). It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
+
+- Written in: Dart
+- Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd)
+- License: [BSD-3-Clause](https://github.com/intel/rohd-vf/blob/main/LICENSE)
+- Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) including a fast event-based simulator
+- Link: https://github.com/intel/rohd-vf
 
 ## Components / VIPs
 
