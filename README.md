@@ -447,18 +447,23 @@ also supporting legacy components in VHDL, Verilog, or SystemVerilog.*
 - License: [Apache-2.0](https://github.com/chiselverify/chiselverify/blob/master/LICENSE.txt)
 - Link: https://github.com/chiselverify/chiselverify
 
-
 ### OSVVM
 
-*"Open Source VHDL Verification Methodology (OSVVM) provides an ASIC level VHDL verification methodology that is simple enough to use even on small FPGA projects. OSVVM offers the same capabilities as those based on other verification languages:"*
+OSVVM is a VHDL verification framework, verification utility library, verification component library, and a simulator independent scripting flow.  OSVVM provides VHDL with buzz word verification capabilities including Transaction Level Modeling, Constrained Random, Functional Coverage,  Scoreboards, and Error Reporting that are simple to use and feel like built-in language features.  The reporting capabilities include HTML outputs for human readability and JUnit based XML for CI/CD tools.
 
-The GitHub organisation includes some AXI4 [Verification IP](https://github.com/OSVVM/VerificationIP)
+The GitHub organisation includes verification components:
+- [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4)
+- [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4)
+- [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4)
+- [UART - Transmitter and Receiver](https://github.com/OSVVM/UART)
+- [DPRAM - Memory Model and Controller](https://github.com/OSVVM/DpRam)
 
-- License: ?
-- Written In: VHDL
+- License: APACHE-2.0
+- Written In: VHDL/TCL
+- Documentation: https://osvvm.github.io/
 - Supports: Constrained Random Test Generation, Functional Coverage Collection, [and more](https://osvvm.org/about-os-vvm)
 - Link: https://osvvm.org/
-- GitHub: https://github.com/OSVVM/OSVVM
+- GitHub: https://github.com/OSVVM/OsvvmLibraries
 
 ### VUnit
 
