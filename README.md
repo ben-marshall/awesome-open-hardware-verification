@@ -151,7 +151,7 @@ source synthesis tool) and one or more formal reasoning engines (listed
 *"mcy is a new tool to help digital designers and project managers understand and improve testbench coverage. [...] Given a self checking testbench, mcy generates 1000s of mutations by modifying individual signals in a post synthesis netlist. These mutations are then filtered using Formal Verification techniques, keeping only those that can cause an important change in the design’s output. All mutated designs are run against the testbench to check that the testbench will detect and fail for a relevant mutation. The testbench can then be improved to get 100% complete coverage."*
 
 - Written In: C++ / Python
-- License: (ISC)[https://github.com/YosysHQ/mcy/blob/master/COPYING]
+- License: [ISC](https://github.com/YosysHQ/mcy/blob/master/COPYING)
 - Link: https://github.com/YosysHQ/mcy
 
 ### Verilator
