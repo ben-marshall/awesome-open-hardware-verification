@@ -197,7 +197,7 @@ Output of the programs can then be checked between DUT and a GRM.
 
 ## riscv-dv
 
-Similar to [AAPG](#AAPG), but this time from Google. 
+Similar to [AAPG](#AAPG), but this time from Google/ CHIPS Alliance. 
 Generates randomised RISC-V programs which can 
 then be run by the DUT and A GRM and checked for equivilence. 
 It has knowledge of interesting features like page tables, CSR access and
@@ -209,8 +209,10 @@ This project cannot be used with current free open source HDL simulators
 since it relies on the object orientated parts of UVM. It is still a
 useful piece of Verification IP though, and serves as a guide for other
 similar projects.
+The project also has a Python generator, which, while less capable
+as of the time of this writing, can be run with FOSS HDL simulators.
 
-- Link: https://github.com/google/riscv-dv
+- Link: https://github.com/chipsalliance/riscv-dv
 - License: Apache-2.0
 - Written In: SystemVerilog + UVM
 
@@ -247,7 +249,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-- Link: https://github.com/alainmarcel/Surelog
+- Link: https://github.com/chipsalliance/Surelog
 - License: Apache 2.0
 - Written In: C++ with Python bindings.
 
