@@ -567,7 +567,7 @@ source USB cores.*"
 
 - Link: https://github.com/antmicro/usb-test-suite-build
 - Written in: Cocotb / Python 3
-- License: None
+- License: Apache-2.0
 
 
 ## Guides:
