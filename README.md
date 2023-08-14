@@ -6,7 +6,7 @@ The aim here is to curate a (mostly) comprehensive list of available tools for v
 the functional correctness of Free and Open Source Hardware designs. The list can
 include:
 - [Tools](#tools) which contain or implement verification related functionality
-- [Testbench Frameworks](#frameworks) which make writing testbenches easier
+- [Testbench Frameworks](#testbench-frameworks) which make writing testbenches easier
 - [Projects](#projects) which are good examples of free/open hardware verification efforts
 - [Verification Guides](#guides) and blog posts on how to actually go about verifying a hardware design
 - [Conferences](#conferences) where new work on open source hardware verification is talked about
