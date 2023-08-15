@@ -173,7 +173,7 @@ Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
 - Write testbenches in: Verilog, or use [cocotb](#cocotb).
-- Link: http://iverilog.icarus.com/
+- Link: https://github.com/steveicarus/iverilog
 
 ### LibreCores CI
 
