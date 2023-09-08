@@ -6,9 +6,9 @@ The aim here is to curate a (mostly) comprehensive list of available tools for v
 the functional correctness of Free and Open Source Hardware designs. The list can
 include:
 - [Tools](#tools) which contain or implement verification related functionality
-- [Testbench Frameworks](#testbench-frameworks) which make writing testbenches easier
+- [Testbench Frameworks](#frameworks) which make writing testbenches easier
 - [Projects](#projects) which are good examples of free/open hardware verification efforts
-- [Verification Guides](#guides--blogs) and blog posts on how to actually go about verifying a hardware design
+- [Verification Guides](#guides) and blog posts on how to actually go about verifying a hardware design
 - [Conferences](#conferences) where new work on open source hardware verification is talked about
 
 Pull requests and submissions are encouraged!
@@ -48,25 +48,25 @@ when I get the time to remember how Github Pages works.
 
 #### Formal Verification:
 
-- [Symbiyosys](#Symbiyosys)
+- [Symbiyosys](#symbiyosys)
   - [riscv-formal](#riscv-formal)
-- [MCY](#MCY) - Testbench coverage tool.
+- [MCY](#mcy) - Testbench coverage tool.
 - [EBMC / CBMC](#ebmc--cbmc) (Model checker for C/C++ and hardware designs)
 
 #### Simulation:
 
-- [Verilator](#Verilator) - Verilog Simulator
-- [Icarus Verilog](#Icarus-Verilog) - Icarus Verilog Simulator
+- [Verilator](#verilator) - Verilog Simulator
+- [Icarus Verilog](#icarus-Verilog) - Icarus Verilog Simulator
 
 #### Build Systems and Continuous Integration:
 
-- [LibreCores CI](#LibreCores-CI)
-- [FuseSoc](#FuseSoC) - Package manager and build abstraction tool for FPGA/ASIC development.
+- [LibreCores CI](#libreCores-ci)
+- [FuseSoc](#fusesoc) - Package manager and build abstraction tool for FPGA/ASIC development.
   - [fsva](#fsva) - FuseSoC Verification Automation
 
 #### Test / Program / Code Generators:
 
-- [AAPG (Automated Assembly Program Generator)](#AAPG)
+- [AAPG (Automated Assembly Program Generator)](#aapg)
 - [riscv-dv](#riscv-dv) - Instruction sequence generator for RISC-V
 - [rggen](#rggen) (Code generation tool for configuration and status registers)
 - [FORCE-RISCV](#force-riscv) - Another instruction sequence generator for RISC-V
@@ -89,40 +89,40 @@ when I get the time to remember how Github Pages works.
   - [Verification IPs](#cocotb-ips) - Various cocotb packages for common interfaces: AXI/Ethernet/PCIE
 - [fvutils/pyvsc](#fvutilspyvsc) - Python packages providing a library for Verification Stimulus and Coverage
 - [chiselverify](#chisel-verify) - UVM-like verification for the Chisel HDL
-- [UVVM](#UVVM)
-- [OSVVM](#OSVVM)
-- [VUnit](#VUnit)
-- [V3](#V3)
+- [UVVM](#uvvm)
+- [OSVVM](#osvvm)
+- [VUnit](#vunit)
+- [V3](#v3)
 - [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) for building and executing testbenches.
 
 ### Components / VIPs
 
 - [uvm_axi](#uvm_axi)
 - [AXI Bus Formal VIP](#axi-bus-formal-vip)
-- [AXI Bus Functional Model tvip-axi](#AXI-Bus-Functional-Model---tvip-axi)
-- [AXI SystemVerilog Modules and Verification Infrastructure](#AXI-SystemVerilog-Modules-and-Verification-Infrastructure)
-- [APB Bus Functional Model tvip-apb](#APB-Bus-Functional-Model---tvip-apb)
-- [USB 1.1 Test Suite](#Antmicro-USB-Test-Suite)
+- [AXI Bus Functional Model tvip-axi](#axi-bus-functional-model---tvip-axi)
+- [AXI SystemVerilog Modules and Verification Infrastructure](#axi-systemverilog-modules-and-verification-infrastructure)
+- [APB Bus Functional Model tvip-apb](#apb-bus-functional-model---tvip-apb)
+- [USB 1.1 Test Suite](#antmicro-usb-test-suite)
 - [Cocotb Verification IPs](#cocotb-ips) - Various cocotb packages for common interfaces: AXI/Ethernet/PCIE
-- [RISC-V-TLM](#RISC-V-TLM) - A SystemC transaction level model of RISC-V
+- [RISC-V-TLM](#risc-v-tlm) - A SystemC transaction level model of RISC-V
 
 ### Projects
 
-- [OpenHW Group Functional Verification](#OpenHW-Group-Functional-Verification)
-- [LowRISC Style Guides](#LowRISC-Style-Guides)
+- [OpenHW Group Functional Verification](#openhw-group-functional-verification)
+- [LowRISC Style Guides](#lowrisc-style-guides)
 
 ### Guides & Blogs:
 
-- [Dan Gisselquist Formal Verification Blogs](#Dan-Gisselquist-Formal-Verification-Blogs)
-- [Verification Gentleman Blog](#Verification-Gentleman-Blog)
-- [Bits, Bytes and Gates](#Bits-Bytes-and-Gates)
+- [Dan Gisselquist Formal Verification Blogs](#dan-gisselquist-formal-verification-blogs)
+- [Verification Gentleman Blog](#verification-gentleman-blog)
+- [Bits, Bytes and Gates](#bits-bytes-and-gates)
 
 ### Conferences:
 
-- [ORCONF](#ORCONF)
-- [OSDA](#OSDA)
-- [CHIPS Alliance Workshop on Open Source Design Verification](#CHIPS-Alliance-Workshop-on-Open-Source-Design-Verification)
-- [Workshop on Open-Source EDA Technology (WOSET)](#Workshop-on-Open-Source-EDA-Technology-WOSET)
+- [ORCONF](#orconf)
+- [OSDA](#osda)
+- [CHIPS Alliance Workshop on Open Source Design Verification](#chips-alliance-workshop-on-open-source-design-verification)
+- [Workshop on Open-Source EDA Technology (WOSET)](#workshop-on-open-source-eda-technology-woset)
 
 ---
 
@@ -197,7 +197,7 @@ Output of the programs can then be checked between DUT and a GRM.
 
 ## riscv-dv
 
-Similar to [AAPG](#AAPG), but this time from Google/ CHIPS Alliance. 
+Similar to [AAPG](#aapg), but this time from Google/ CHIPS Alliance. 
 Generates randomised RISC-V programs which can 
 then be run by the DUT and A GRM and checked for equivilence. 
 It has knowledge of interesting features like page tables, CSR access and
@@ -283,7 +283,7 @@ Note: Only the binaries for EBMC can be downloaded, no source-code is
 available.  It's included on this list because it is a powerful tool which
 would otherwise not be available to the open hardware community.
 For a completely free and open tool with similar capabilities,
-look at [SymbiYosys](#Symbiyosys).
+look at [SymbiYosys](#symbiyosys).
 
 **CBMC:**
 
@@ -418,7 +418,7 @@ Interface / Module | Author | License
 ### riscv-formal
 
 A re-usable formal verification framework for RISC-V CPU designs.
-Uses the [Yosys/SymbiYosys](#SymbiYosys) tools.
+Uses the [Yosys/SymbiYosys](#symbiyosys) tools.
 
 - License: [ISC](https://github.com/SymbioticEDA/riscv-formal/blob/master/COPYING)
 - Written In: Verilog
@@ -471,7 +471,7 @@ The GitHub organisation includes verification components:
 
 *"VUnit is an open source unit testing framework for VHDL/SystemVerilog \[...\] It features the functionality needed to realize continuous and automated testing of your HDL code. VUnit doesn’t replace but rather complements traditional testing methodologies by supporting a “test early and often” approach through automation."*
 
-Based partially on [OSVVM](#OSVVM)
+Based partially on [OSVVM](#osvvm)
 
 - Written In: VHDL/Python
 - Write Testbenches In: VHDL/System Verilog
@@ -576,7 +576,7 @@ source USB cores.*"
 
 ### Dan Gisselquist Formal Verification Blogs
 
-A set of posts on experiences using [Symbiyosys/Yosys](#Symbiyosys) for formally verifying a CPU design.
+A set of posts on experiences using [Symbiyosys/Yosys](#symbiyosys) for formally verifying a CPU design.
 Includes lots of useful insights and guides for specific and general use cases.
 
 - Link: https://zipcpu.com/formal/formal.html
