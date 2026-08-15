@@ -110,6 +110,7 @@ when I get the time to remember how Github Pages works.
 
 - [OpenHW Group Functional Verification](#openhw-group-functional-verification)
 - [LowRISC Style Guides](#lowrisc-style-guides)
+- [Coherex](#coherex)
 
 ### Guides & Blogs:
 
@@ -625,7 +626,18 @@ These are the style guides used by the
 for writing both RTL and UVM based testbenches.
 
 - License: [CC-BY-4.0](https://github.com/lowRISC/style-guides/blob/master/LICENSE)
-- Link: https://github.com/lowRISC/style-guides
+### Coherex
+
+A four-layer verification environment for a 4-core snoopy MESI cache-coherence
+cluster: exhaustive protocol model checking, RTL simulation of the coherence
+cluster, litmus tests judged against an exhaustive sequential-consistency
+oracle, and mutation-qualified checkers — each checking layer is validated by
+injecting bugs and confirming it actually catches them, rather than trusted
+to work.
+
+- Github Link: https://github.com/3more102/Coherex
+- License: MIT
+- Written In: SystemVerilog, Python
 
 ## Conferences:
 
