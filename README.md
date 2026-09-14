@@ -92,6 +92,7 @@ when I get the time to remember how Github Pages works.
 - [UVVM](#uvvm)
 - [OSVVM](#osvvm)
 - [VUnit](#vunit)
+- [uvm_unit](#uvm_unit) - Unit-testing framework for SystemVerilog and UVM
 - [V3](#v3)
 - [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) for building and executing testbenches.
 
@@ -472,6 +473,19 @@ Based partially on [OSVVM](#osvvm)
 - Write Testbenches In: VHDL/System Verilog
 - License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) baring OSVVM components.
 - Link: https://vunit.github.io/index.html
+
+### uvm_unit
+
+*"A Unit-Testing Framework for SystemVerilog and UVM."*
+
+uvm_unit supports test-driven development of UVM testbenches and SystemVerilog code, including RTL modules. All UVM phases can be tested. There are no script dependencies and minimal boilerplate. The repository also includes `sv_test`, a stripped-down framework for SystemVerilog code where UVM is not required.
+
+Like other UVM-based projects on this list, it currently requires a commercial SystemVerilog simulator (examples are provided for Xcelium, Questa, and VCS) and a modified UVM library that ships with the project (UVM 1.2 and UVM-1800.2-2020-2.0).
+
+- Written In: SystemVerilog
+- Write Testbenches In: SystemVerilog / UVM
+- License: [Apache-2.0](https://github.com/cquickstad/uvm_unit/blob/master/LICENSE)
+- Link: https://github.com/cquickstad/uvm_unit
 
 ### V3
 
