@@ -618,6 +618,27 @@ organised.
 - Verification Strategy Document: https://core-v-docs-verif-strat.readthedocs.io/en/latest/
 - License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md)
 
+
+### assertforge
+
+LLM-generated SVA properties, with the solver as the only judge. There
+is no human grading an assertion anywhere in the loop - SymbiYosys
+proves or refutes each candidate, a refutation is parsed into a
+cycle-by-cycle counterexample table and handed back to the model, and a
+vacuity check rejects properties that pass for the wrong reason.
+
+The repository is as much a measurement of the open-source backend as
+of the method: Yosys 0.33 implements a strict subset of SVA (IEEE 1800)
+and nothing published which subset, so the accepted grammar is
+re-derived against the live toolchain (`assertforge grammar --measure`)
+rather than assumed. Across 4 generation strategies x 5 designs, the
+grammar-lint arm moves the score from 2/5 to 0/5 - every design
+MALFORMED - at roughly half the solver time, which is the kind of thing
+worth knowing before pointing a model at SymbiYosys.
+
+- Github Link: https://github.com/ZhangYangyi03/assertforge
+- License: Apache-2.0
+
 ### LowRISC Style Guides
 
 These are the style guides used by the 
